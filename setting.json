@@ -1,0 +1,60 @@
+{
+  "editor.minimap.enabled": false,
+  "vim.easymotion": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["H"],
+      "after": [":", "<", "<", "CR"],
+      "commands": [":normal_map", "H", "<<"]
+    },
+    {
+      "before": ["L"],
+      "after": [":", ">", ">", "CR"],
+      "commands": [":normal_map", "L", ">>"]
+    },
+    {
+      "before": ["f", "f"],
+      "after": [":", "w", "!", "CR"],
+      "commands": [":normal_map", "ff", "w!"]
+    }
+  ],
+  "editor.lineNumbers": "relative",
+  "vim.overrideCopy": true,
+  "vim.useSystemClipboard": true,
+  "prettier.enable": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "workbench.iconTheme": "material-icon-theme",
+  "prettier.bracketSameLine": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "emmet.includeLanguages": {
+    "javascript": "html5"
+  },
+  "errorLens.enabledDiagnosticLevels": ["error", "warning", "info"],
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.followCursor": "activeLine",
+  "codesnap.containerPadding": "1em",
+  "codesnap.realLineNumbers": true,
+  "codesnap.showWindowTitle": true,
+  "json.schemas": [],
+  // "window.menuBarVisibility": "toggle",
+  "workbench.settings.applyToAllProfiles": [],
+  "workbench.preferredDarkColorTheme": "One Dark Pro Flat",
+  "workbench.preferredHighContrastColorTheme": "One Dark Pro",
+  "workbench.preferredHighContrastLightColorTheme": "One Dark Pro",
+  "workbench.preferredLightColorTheme": "One Dark Pro Mix",
+  "breadcrumbs.enabled": false,
+  "editor.renderWhitespace": "none",
+  "workbench.statusBar.visible": true,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.colorTheme": "One Dark Pro Darker"
+}
